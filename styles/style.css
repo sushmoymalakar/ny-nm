@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: whitesmoke;
+    background-image: url('../images/banner/banner2.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: end;
+}
+
+/* banner text area */
+.banner-area {
+    padding-top: 160px;
+    padding-left: 700px;
+    padding-right: 200px;
+    width: 525px;
+
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+    line-height: 76.25px;
+    margin-bottom: 5px;
+}
+
+.banner-description {
+    margin-bottom: 20px;
+}
+
+.btn-contact {
+    background: orange;
+    height: 64px;
+    width: 160px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+
+}
+
+/* mid section */
+.mid-sec{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 206px;
+    margin-right: 332px;
+    width: 1072px;
+    height: 720px;
+    align-items: center;
+    gap: 50px;
+}
+#des-title{
+    font-size: 42px;
+    margin-bottom: 24px;
+    text-align: start;
+    font-weight: 700;
+
+}
+#details{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.point-no{
+    padding-top: 10px;
+    margin: 10px;
+    align-items: left;
+}
+
+/* my plan section */
+
+.my-plans{
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.my-plans-container {
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.plans{
+    align-items: center;
+}
+.section-title{
+    font-weight: 700;
+    size: 60px;
+
+}
+.plan-title{
+    font-weight: 700;
+    size: 30px;
+    align-items: center;
+    padding: 16px 8px;
+}
+.future-goal{
+    font-weight: 500;
+    size: 25px;
+    align-items: center;
+    padding-top: 16px;
+}
+
+/* call now section */
+
+.call{
+    background-image: url('../images/watch.png');
+    background-position: center;
+    border-radius: 8px;
+    position: absolute;
+    height: 300px;
+    width: 1140px;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(241, 91, 34, 1));
+}

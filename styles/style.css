@@ -45,7 +45,7 @@
 }
 
 /* mid section */
-.mid-sec{
+.mid-sec {
     display: flex;
     margin-top: 130px;
     margin-left: 206px;
@@ -55,21 +55,23 @@
     align-items: center;
     gap: 50px;
 }
-#des-title{
+
+#des-title {
     font-size: 42px;
     margin-bottom: 24px;
     text-align: start;
     font-weight: 700;
 
 }
-#details{
+
+#details {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
 
 }
 
-.point-no{
+.point-no {
     padding-top: 10px;
     margin: 10px;
     align-items: left;
@@ -77,7 +79,7 @@
 
 /* my plan section */
 
-.my-plans{
+.my-plans {
     margin-top: 130px;
     text-align: center;
     margin-bottom: 125px;
@@ -90,21 +92,25 @@
     align-items: center;
     margin-top: 50px;
 }
-.plans{
+
+.plans {
     align-items: center;
 }
-.section-title{
+
+.section-title {
     font-weight: 700;
     size: 60px;
 
 }
-.plan-title{
+
+.plan-title {
     font-weight: 700;
     size: 30px;
     align-items: center;
     padding: 16px 8px;
 }
-.future-goal{
+
+.future-goal {
     font-weight: 500;
     size: 25px;
     align-items: center;
@@ -113,13 +119,110 @@
 
 /* call now section */
 
-.call{
+.call {
     background-image: url('../images/watch.png');
-    background-position: center;
+    background-position: center center;
+    height: 250px;
+    width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 130px;
+    margin-top: 125px;
+}
+
+#call-body {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    padding-left: 70px;
+
+}
+
+#call-title {
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+    padding-bottom: 20px;
+
+}
+
+.call-now {
+    width: 172px;
+    height: 64px;
     border-radius: 8px;
-    position: absolute;
-    height: 300px;
-    width: 1140px;
-    background-repeat: no-repeat;
-    background: linear-gradient(rgba(241, 91, 34, 1));
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    color: rgba(241, 91, 34, 1);
+}
+
+
+/* footer area */
+.footer {
+    display: flex;
+    background: rgb(0, 0, 0);
+    height: 500px;
+    padding-top: 130px;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap: 175px;
+    color: white;
+
+}
+
+.footer-title {
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 17px;
+}
+
+.footer-dscrp{
+    width: 485px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+#mail-phone {
+    margin-bottom: 24px;
+    line-height: 45px;
+}
+
+/* icon */
+
+.icon a {
+    text-decoration: none;
+}
+
+#icon-row {
+    padding-right: 10px;
+}
+
+#footer-title {
+    font-size: 26px;
+    width: 600;
+}
+
+.put-mail {
+    margin-top: 25px;
+}
+
+#email {
+    width: 325px;
+    height: 45px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+#Subscribe-btn {
+    width: 172px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 20px;
+    color: rgba(241, 91, 34, 1);
+
 }
